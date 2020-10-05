@@ -16,4 +16,80 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    width: 250px;
+    margin: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.jmeno {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+.obsah {
+  background-color: #31363b;
+  border-bottom: 1px dotted #3f464d;
+  padding: 1rem;
+  text-align: left;
+  margin: 0;
+}
+
+.odkazy {
+  background-color: #31363b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.odkazy li {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.odkazy a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: beige;
+  font-weight: 600;
+  padding: 1rem;
+  display: inline-block;
+}
+.portfolio {
+  border: 1px solid #3f464d;
+  width: 100%;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+}
+
+.facebook {
+  border-right: 1px solid #3f464d;
+  width: 50%;
+}
+
+.twitter {
+  width: 50%;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+}
+.foto {
+  width: 250px;
+}
+
+.logo {
+  border-radius: 50%;
+  background-color: #b92e81;
+  position: absolute;
+  left: 190px;
+  top: 150px;
+  box-shadow: black 0.5px 1px 10px;
 }
